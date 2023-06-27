@@ -1,0 +1,29 @@
+
+<h2>Payroll Details </h2>
+<form action="upload" method="post" enctype="multipart/form-data" class="form-group">
+<label for="file-type">ID Number:</label>
+<input type="text2">
+<label for="file-type">KRA Number:</label>
+<input type="text2">
+<label for="file-type">NHIF Number:</label>
+<input type="text2">
+<label for="file-type">NSSF Number:</label>
+<input type="text2">
+<label for="file-type">Upload Documents:</label>
+<select id="file-type" name="file-type">
+<option value="image">ID </option>
+<option value="document"> KRA</option>
+<option value="video"> NHIF</option>
+<option value="video"> NSSF</option>
+</select><br>
+
+
+<br>
+
+<label for="file-upload">Select File:</label>
+<input type="file" id="file-upload" name="file-upload" accept="image/*, .pdf, .doc, .docx, .mp4">
+
+<br><br>
+
+<input type="submit" value="Upload">
+</form>
